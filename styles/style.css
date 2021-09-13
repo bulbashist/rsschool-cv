@@ -2,10 +2,38 @@
     background-color: blueviolet;
 }
 
+@keyframes links {
+    0% {
+        color: red;
+    }
+    50% {
+        color: orange;
+    }
+    100% {
+        color: yellow;
+    }
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    animation: links 2s ease-in-out infinite;
+}
 body {
-    width: 750px;
+    width: 700px;
     margin: auto;
     border: 2px solid black;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-info-secondary {
+    font: italic bold 1em Arial;
 }
 
 .header-list {
