@@ -1,0 +1,15 @@
+* {
+    background-color: blueviolet;
+}
+
+body {
+    width: 750px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
