@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>Document</title>
 </head>
+
 <body>
     <header>
-        <img class = "header-img" src= "images/cat1.jpg" alt = "avatar" >
-        <div class = "header-info">
-            <h1 class = "header-info-name">Alexander Medvedev</h1>
-            <h3 class = "header-info-secondary">Probably a future developer...</h3>
+        <img class="header-img" src="images/cat1.jpg" alt="avatar" width = "85px" height = "85px">
+        <div class="header-info">
+            <h1 class="header-info-name">Alexander Medvedev</h1>
+            <h3 class="header-info-secondary">Probably a future developer...</h3>
         </div>
     </header>
     <nav>
-        <ul class = "header-list">
+        <ul class="header-list">
             <li>
-                <a href = "">1</a>
+                <a href="">1</a>
             </li>
             <li>
-                <a href = "">2</a>
+                <a href="">2</a>
             </li>
             <li>
-                <a href = "#contacts">3</a>
+                <a href="#contacts">3</a>
             </li>
         </ul>
     </nav>
@@ -35,7 +41,7 @@
                 <li>I want to become a fullstack-developer</li>
                 <li>I don't have any working experience</li>
                 <li>I'm intrested in learning node.js, understanding of REST principles</li>
-            </ul> 
+            </ul>
         </article>
         <article>
             <h2>Skills:</h2>
@@ -43,20 +49,64 @@
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JS</li>
-            </ul>    
+            </ul>
+        </article>
+        <article>
+            <h2>Code example:</h2>
+            <pre>
+                <code>
+                    function getParticipants(handshakes){
+                        let men = 1;
+                        let possibleHandshakes = 0;
+                        while (handshakes > possibleHandshakes) {
+                          possibleHandshakes += men;
+                          men++;
+                        }
+                        return men;
+                      }
+                </code>
+            </pre>
+        </article>
+        <article>
+            <h2>My projects</h2>
+            <ul>
+                <li>
+                    <p></p>
+
+                </li>
+                <li>
+                    <p></p>
+                </li>
+                <li>
+                    <p></p>
+                </li>
+            </ul>
+        </article>
+        <article>
+            <h2>Short presentation:</h2>
+            <video src= "videos/aboutme.mp4" controls></video>
         </article>
     </section>
-    <a name = "contacts"></a>
+    <a name="contacts"></a>
     <footer>
-        <a href = "https://github.com/bulbashist">
-            <img src = "images/github.png" alt = "github-logo">
-        </a>
-        <a href = "https://rs.school/js">
-            <img src= "images/rs_school_js.svg" alt = "rss logo" width = "70px" height = "40px">
-        </a>
-        <a href = "https://t.me/bulbashist">
-            <img src = "images/tg.png" alt = "tg-logo">
-        </a>
+        <ul class= "footer-links">
+            <li>
+                <a href="https://github.com/bulbashist">
+                    <img src="images/github.png" alt="github-logo">
+                </a>
+            </li>
+            <li>
+                <a href="https://rs.school/js">
+                    <img src="images/rs_school_js.svg" alt="rss logo" width="70px" height="40px">
+                </a>
+            </li>
+            <li>
+                <a href="https://t.me/bulbashist">
+                    <img src="images/tg.png" alt="tg-logo">
+                </a>
+            </li>
+        </ul>
     </footer>
 </body>
+
 </html>

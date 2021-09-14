@@ -1,7 +1,3 @@
-* {
-    background-color: blueviolet;
-}
-
 @keyframes links {
     0% {
         color: red;
@@ -19,7 +15,13 @@ a {
     text-decoration: none;
     animation: links 2s ease-in-out infinite;
 }
+
+article h2 {
+    text-align: center;
+}
 body {
+    display: flex;
+    flex-direction: column;
     width: 700px;
     margin: auto;
     border: 2px solid black;
@@ -40,4 +42,17 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+footer {
+    background-color: grey;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 20px 0 20px;
 }
