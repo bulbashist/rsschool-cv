@@ -19,6 +19,7 @@ a {
 article h2 {
     text-align: center;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -42,6 +43,20 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.projects li {
+    flex: 0 1 33%;
+}
+
+.projects li {
+    text-align: center;
 }
 
 footer {
