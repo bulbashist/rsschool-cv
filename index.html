@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media= "(max-width: 700px)" href="styles/style320.css">
+    <link rel="stylesheet" media= "(min-width: 701px)" href="styles/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img class="header-img" src="images/cat1.jpg" alt="avatar" width = "85px" height = "85px">
+        <div class="header-info">
+            <h1 class="header-info-name">Alexander Medvedev</h1>
+            <h3 class="header-info-secondary">Probably a future developer...</h3>
+        </div>
+    </header>
+    <nav>
+        <ul class="header-list">
+            <li>
+                <a href="#info">Information</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contacts">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <a name = "info"></a>
+        <article>
+            <h2>About myself:</h2>
+            <ul>
+                <li>I want to become a fullstack-developer</li>
+                <li>I don't have any working experience</li>
+                <li>I'm intrested in learning node.js, understanding of REST principles</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Education:</h2>
+            <ul>
+                <li>Currenly studying at BSUIR</li>
+                <li>Taking frontend courses at rs-school</li>
+                <li>English level: A2</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Skills:</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ul>
+        </article>
+        <article>
+            <h2>Code example:</h2>
+            <pre>
+                <code>
+                    function getParticipants(handshakes){
+                        let men = 1;
+                        let possibleHandshakes = 0;
+                        while (handshakes > possibleHandshakes) {
+                            possibleHandshakes += men;
+                            men++;
+                        }
+                        return men;
+                    }
+                </code>
+            </pre>
+        </article>
+
+        <a name = "projects"></a>
+        <article>
+            <h2>My projects</h2>
+            <div class="projects">
+                <div>
+                    <p class = "project-title">Perfect Pixel</p>
+                    <a href = "https://bulbashist.github.io/RPI_lab1/" target = "_blank"><img src = "" alt = "project-1"></a>
+                    <p class = "project-description">This project was a part of university studies</p>
+                    <p class= "project-tech-stack">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </p>
+                </div>
+                <div>
+                    <p class = "project-title">Momentum</p>
+                    <a href = "https://bulbashist.github.io/RPI_lab2" target = "_blank"><img src = "" alt = "project-2"></a>
+                    <p class = "project-description">This project was also a part of university studying</p>
+                    <p class= "project-tech-stack">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                    </p>
+                </div>
+                <div>
+                    <p class = "project-title">Paint</p>
+                    <a href = "https://github.com/bulbashist/Paint"><img src = "" alt = "project-3" target = "_blank"></a>
+                    <p class = "project-description">This project was an OOP task. This project can't be published, so the link leads to Github</p>
+                    <p class= "project-tech-stack">
+                        <ul>
+                            <li>C#</li>
+                        </ul>
+                    </p>
+                </div>
+            </ul>
+        </article>
+        <article class = "article-video">
+            <h2>Short presentation:</h2>
+            <video src= "videos/aboutme.mp4" controls></video>
+        </article>
+    </section>
+    <a name="contacts"></a>
+    <footer>
+        <ul class= "footer-links">
+            <li>
+                <a href="https://github.com/bulbashist">
+                    <img src="images/github.png" alt="github-logo">
+                </a>
+            </li>
+            <li>
+                <a href="https://rs.school/js">
+                    <img src="images/rs_school_js.svg" alt="rss logo" width="70px" height="40px">
+                </a>
+            </li>
+            <li>
+                <a href="https://t.me/bulbashist">
+                    <img src="images/tg.png" alt="tg-logo">
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
