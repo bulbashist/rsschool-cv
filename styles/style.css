@@ -43,6 +43,11 @@ header {
     justify-content: space-around;
 }
 
+header img {
+    position: relative;
+    top: 15px;
+}
+
 .header-info-secondary {
     font: italic bold 1em Arial;
 }
