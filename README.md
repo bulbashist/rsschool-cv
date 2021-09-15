@@ -1,1 +1,1 @@
-https://bulbashist.github.io/rsschool-cv/cv
+https://bulbashist.github.io/rsschool-cv
