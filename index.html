@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <img class="header-img" src="images/cat1.jpg" alt="avatar" width = "85px" height = "85px">
+        <img class="header-img" src="images/cat1.jpg" alt="avatar" width = "85" height = "85">
         <div class="header-info">
             <h1 class="header-info-name">Alexander Medvedev</h1>
             <h3 class="header-info-secondary">Probably a future developer...</h3>
@@ -36,9 +36,9 @@
         </ul>
     </nav>
     <section>
-        <a name = "info"></a>
-        <article>
-            <h2>About myself:</h2>
+        <h6>&nbsp;</h6>
+        <article id = "info">
+            <h2>About myself</h2>
             <ul>
                 <li>I want to become a fullstack-developer</li>
                 <li>I don't have any working experience</li>
@@ -46,7 +46,7 @@
             </ul>
         </article>
         <article>
-            <h2>Education:</h2>
+            <h2>Education</h2>
             <ul>
                 <li>Currenly studying at BSUIR</li>
                 <li>Taking frontend courses at rs-school</li>
@@ -54,7 +54,7 @@
             </ul>
         </article>
         <article>
-            <h2>Skills:</h2>
+            <h2>Skills</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -62,10 +62,10 @@
             </ul>
         </article>
         <article class = "code">
-            <h2>Code example:</h2>
+            <h2>Code example</h2>
             <pre>
                 <code>
-<p>
+<span>
 function getParticipants(handshakes){
     let men = 1;
     let possibleHandshakes = 0;
@@ -75,57 +75,48 @@ function getParticipants(handshakes){
     }
     return men;
 }
-</p>
+</span>
                 </code>
             </pre>
         </article>
-
-        <a name = "projects"></a>
-        <article>
+        <article id = "projects">
             <h2>My projects</h2>
             <div class="projects">
                 <div>
                     <p class = "project-title">Perfect Pixel</p>
                     <a href = "https://bulbashist.github.io/RPI_lab1/" target = "_blank"><img src = "images/project1.jpg" alt = "project-1"></a>
                     <p class = "project-description">This project was a part of university studies</p>
-                    <p class= "project-tech-stack">
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                        </ul>
-                    </p>
+                    <ul class= "project-tech-stack">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
                 </div>
                 <div>
                     <p class = "project-title">Momentum</p>
                     <a href = "https://bulbashist.github.io/RPI_lab2" target = "_blank"><img src = "images/project2.jpg" alt = "project-2"></a>
                     <p class = "project-description">This project was also a part of university studying</p>
-                    <p class= "project-tech-stack">
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JS</li>
-                        </ul>
-                    </p>
+                    <ul class = "project-tech-stack">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
                 </div>
                 <div>
                     <p class = "project-title">Paint</p>
                     <a href = "https://github.com/bulbashist/Paint" target = "_blank"><img src = "images/project3.jpg" alt = "project-3"></a>
                     <p class = "project-description">This project was an OOP task. This project can't be published, so the link leads to Github</p>
-                    <p class= "project-tech-stack">
-                        <ul>
-                            <li>C#</li>
-                        </ul>
-                    </p>
+                    <ul class = "project-tech-stack">
+                        <li>C#</li>
+                    </ul>
                 </div>
-            </ul>
+            </div>
         </article>
         <article class = "article-video">
-            <h2>Short presentation:</h2>
+            <h2>Short presentation</h2>
             <video src= "videos/aboutme.mp4" controls></video>
         </article>
     </section>
-    <a name="contacts"></a>
-    <footer>
+    <footer id = "contacts">
         <ul class= "footer-links">
             <li>
                 <a href="https://github.com/bulbashist">
@@ -134,7 +125,7 @@ function getParticipants(handshakes){
             </li>
             <li>
                 <a href="https://rs.school/js">
-                    <img src="images/rs_school_js.svg" alt="rss logo" width="70px" height="40px">
+                    <img src="images/rs_school_js.svg" alt="rss logo" width="70" height="40">
                 </a>
             </li>
             <li>

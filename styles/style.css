@@ -62,11 +62,6 @@ header img {
 .code pre code {
     overflow-x: hidden !important;
 }
-
-.code pre code p {
-    position: relative;
-    left: 25%;
-}
  
 .projects {
     display: flex;
