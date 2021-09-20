@@ -6,7 +6,7 @@
         color: orange;
     }
     100% {
-        color: yellow;
+        color: purple;
     }
 }
 
@@ -20,9 +20,8 @@ article {
 }
 
 a {
-    color: red;
     text-decoration: none;
-    animation: links 2s ease-in-out infinite;
+    animation: links 3s ease-in-out infinite;
 }
 
 article h2 {
