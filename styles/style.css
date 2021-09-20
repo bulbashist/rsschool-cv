@@ -6,12 +6,13 @@
         color: orange;
     }
     100% {
-        color: yellow;
+        color: purple;
     }
 }
 
 html {
     scroll-behavior: smooth;
+    background-color: yellow;
 }
 
 article {
@@ -19,9 +20,8 @@ article {
 }
 
 a {
-    color: red;
     text-decoration: none;
-    animation: links 2s ease-in-out infinite;
+    animation: links 3s ease-in-out infinite;
 }
 
 article h2 {
@@ -58,6 +58,10 @@ header img {
     justify-content: space-around;
 }
 
+.code pre code {
+    overflow-x: hidden !important;
+}
+ 
 .projects {
     display: flex;
     flex-direction: row;
@@ -71,6 +75,7 @@ header img {
     border: 2px dashed black;
     text-align: center;
 }
+
 
 .article-video {
     text-align: center;
@@ -87,4 +92,9 @@ footer {
 .footer-links li {
     display: inline;
     margin: 0 20px 0 20px;
+}
+
+.footer-data {
+    float: right;
+    margin: 0 30px 20px 0;
 }
