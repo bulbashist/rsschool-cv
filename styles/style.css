@@ -98,3 +98,7 @@ footer {
     float: right;
     margin: 0 30px 20px 0;
 }
+
+.no-BSUIR {
+    text-decoration: line-through;
+}
